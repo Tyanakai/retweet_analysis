@@ -23,7 +23,7 @@ csvの各列は、tweet内容、retweet数、tweet主体のfollower数 となっ
 取得したtwitterのデータを使用してBERTを訓練します。<br>
 入力はtweet内容の文字列、予測する値は、`retweet数 / (follower数 + 1)`とします。<br>
 `tw_data.csv`をGoogle Driveにアップロードし、
-Google Colabratory上で[retweert_regression.ipynb](retweert_regression.ipynb)を実行して下さい。<br>
+Google Colabratory上で[retweet_regression.ipynb](retweet_regression.ipynb)を実行して下さい。<br>
 
 予測値に対する考察は以下の通りです。<br>
 ![スクリーンショット 2022-07-24 114854](https://user-images.githubusercontent.com/81244428/180630728-5d303db2-dba8-417e-b508-908042cb3117.png)
